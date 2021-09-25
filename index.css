@@ -1,0 +1,86 @@
+:root {
+  --background-color: #6B7280;
+  --app-color: #FEE2E2;
+  --red-color: #F9FAFB;
+}
+
+body {
+  background-color: var(--app-color);
+  margin: 0;
+}
+
+.container {
+  border-radius: 3vw;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  width: 70vw;
+  margin: auto;
+  background-color: var(--app-color);
+  color: var(--background-color);
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+label {
+  margin: 1.5vw;
+}
+
+input {
+  width: 45%;
+  padding: 0.5rem;
+  margin: auto;
+  border: none;
+  color: var(--background-color);
+}
+
+.cash-container {
+  padding-left: 0;
+}
+
+button {
+  width: 75px;
+  height: 35px;
+  margin: 1.5vw auto;
+  background-color: var(--background-color);
+  color: var(--app-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#error{
+    color: red;
+}
+
+.notes {
+  background-color: var(--red-color);
+}
+
+table {
+  border: 1px solid var(--app-color);
+  border-collapse: collapse;
+  background-color: var(--background-color);
+  color: var(--app-color);
+  font-size: small;
+  margin: auto;
+  user-select: none;
+}
+
+td,
+th {
+  border: 1px solid var(--app-color);
+    width: 2.5vw;
+    padding: 0.8vw;
+}
+
+table caption {
+  color: var(--background-color);
+  margin-bottom: 1.5vw;
+  font-size: medium;
+}
+
+.table-container {
+  padding-left: 0;
+  margin: auto;
+}
