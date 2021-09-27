@@ -75,7 +75,13 @@ checkBtn.addEventListener("click", () => {
         "Cash Given should be greater than or equal to Bill Amount"
       );
     } else {
-      NumberOfNotes(returnAmount);
+      if(returnAmount === 0){
+        showErrorMsg("User paid exact amount no need give change");
+        NumberOfNotes(returnAmount);
+      }
+      else{
+        NumberOfNotes(returnAmount);
+      }
     }
   } else {
     invalidBillAmount();
