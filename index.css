@@ -55,6 +55,7 @@ button {
 
 .notes {
   background-color: var(--red-color);
+  color: black;
 }
 
 table {
