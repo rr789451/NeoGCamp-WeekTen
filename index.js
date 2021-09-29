@@ -76,7 +76,7 @@ checkBtn.addEventListener("click", () => {
       );
     } else {
       if(returnAmount === 0){
-        showErrorMsg("User paid exact amount no need give change");
+        showErrorMsg("User paid exact amount no need to give change");
         NumberOfNotes(returnAmount);
       }
       else{
